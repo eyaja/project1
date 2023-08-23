@@ -13,18 +13,14 @@
         <h1 class="first"> <b>kebab</b> <i>kingdom</i></h1>
         <div class="first">
             <a href="#About us"> <b>About us</b></a>
-            <a href="#"><b>food</b></a>
-            <a href="#"><b>your order</b></a>
-            <div class="shopping">
-                <img src="https://th.bing.com/th?id=OIP.rJMKBEiZMLfPjIktDfKmhwHaGE&w=276&h=226&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2">
-                <span class="quantity">0</span>
-            </div>
+            <a href="#sign up"><b>Sign up</b></a>
+            
         </div>
     </nav>
     <main>
         <!-- Main content section -->
         <figure><img width="150px" height="150px" src="https://api.logo.com/api/v2/images?logo=logo_ae8b35f4-9e27-4040-a560-f7ff4d7fdc8c&format=webp&margins=0&quality=60&width=500&background=transparent&u=1692742908" alt=""></figure> <br>
-        <h1 id="title">You want to eat! We deliver</h1>
+        <h1 id="title">You want to eat ? We deliver !</h1>
         <article>
             <!-- Article section -->
             <section id="About us">
@@ -57,6 +53,38 @@
                 </div>
             </section>
         </article>
-    </main>
+    </main> <br> <br> <br> <br>
+    <section id="sign up"> 
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+         <img class="logo" id="formlogo" width="100px" height="100px" src="https://api.logo.com/api/v2/images?logo=logo_ae8b35f4-9e27-4040-a560-f7ff4d7fdc8c&format=webp&margins=0&quality=60&width=500&background=transparent&u=1692742908"alt="">
+         <h1 class="logo" id="formtitle">Sign Up :</h1> 
+         <p class="logo" id="formp">Please fill in this form to create an account.</p>
+        </div>
+          <hr>
+      
+          <label for="email"><b class="style">Email :</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b class="style">Create A Password :</b></label>
+          <input type="password" placeholder="Create A Password" name="psw" required>
+      
+          <label for="psw-repeat"><b class="style">Repeat Password :</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><b class="style"> Remember me</b>
+          </label>
+      
+          
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
 </body>
 </html>
