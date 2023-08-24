@@ -1,191 +1,251 @@
-nav{ display: inline;
+
+/* Styling for the navigation bar */
+nav {
+    display: inline;
     position: sticky;
-    top: 0px; ;
-     overflow: auto;
-     background-color: rgb(255, 255, 255);
-     padding-top: 40px;
-     padding-bottom: 40px; 
-     padding-right: 280px;
-     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);}
-
-
-.first{
-     display: inline;
-}
-nav h1{
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;margin-right: 70px;
-}
-
-nav h1 b{
-    color: rgb(199, 61, 30); font-size: larger; 
-}
-nav h1 i{
-    color: rgb(154, 148, 148); font-size:larger ;
-}
-nav div {
-     margin-left: 438px;
-}
-a{
-    margin-left: 30px;
-     text-decoration: none;
-      color: rgb(154, 148, 148);
-       font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif ;
-}
-a:hover{
+    top: 0px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for inline elements within navigation */
+  .first {
+    display: inline;
+  }
+  
+  /* Styling for navigation bar headings */
+  nav h1 {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    margin-right: 70px;
+  }
+  
+  /* Styling for specific parts of navigation headings */
+  nav h1 b {
     color: rgb(199, 61, 30);
-}
- 
-main{
+    font-size: larger;
+  }
+  
+  nav h1 i {
+    color: rgb(154, 148, 148);
+    font-size: larger;
+  }
+  
+  /* Styling for navigation div container */
+  nav div {
+    margin-left: 438px;
+  }
+  
+  /* Styling for anchor links */
+  a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(154, 148, 148);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for anchor links on hover */
+  a:hover {
+    color: rgb(199, 61, 30);
+  }
+  
+  /* Styling for main content area */
+  main {
     background-color: rgb(244, 199, 85);
     padding-bottom: 50px;
-    
-}
-figure{
-    margin-left: 500px;margin-top: 50px;padding-top: 20px;
-}
-#title{
-    color: rgb(116, 114, 114) ; 
-    font-size:xx-large;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for figures */
+  figure {
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+  
+  /* Styling for the "title" element */
+  #title {
+    color: rgb(116, 114, 114);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-right: 40px;
-}
-.image{display: inline;}
-#fourth{
+  }
+  
+  /* Styling for image elements */
+  .image {
+    display: inline;
+  }
+  
+  /* Styling for elements with id "fourth" */
+  #fourth {
     margin-left: 200px;
     margin-top: 100px;
-}
-#fifth{
+  }
+  
+  /* Styling for elements with id "fifth" */
+  #fifth {
     margin-left: 400px;
     margin-top: 100px;
-}
-.paragraphs{
+  }
+  
+  /* Styling for elements with class "paragraphs" */
+  .paragraphs {
     display: inline;
-}
-#paragraphone{
+  }
+  
+  /* Styling for elements with id "paragraphone" */
+  #paragraphone {
     margin-left: 40px;
-}
-#paragraphone h1{ 
+  }
+  
+  /* Styling for specific parts of elements within id "paragraphone" */
+  #paragraphone h1 {
     margin-left: 250px;
-    color:rgb(199, 61, 30) ;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(199, 61, 30);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: x-large;
-} 
-#paragraphone pre{
-    color: rgb(116, 114, 114) ;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+  }
+  
+  #paragraphone pre {
+    color: rgb(116, 114, 114);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: larger;
     font-weight: bold;
     margin-left: 30px;
-} 
-#paragraphtwo h1{
+  }
+  
+  /* Styling for elements with id "paragraphtwo" */
+  #paragraphtwo h1 {
     margin-top: -178px;
     margin-left: 690px;
-    color:rgb(199, 61, 30) ;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
-    font-size:x-large;
-}
-#paragraphtwo pre{
+    color: rgb(199, 61, 30);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+  }
+  
+  #paragraphtwo pre {
     margin-left: 650px;
     margin-top: 20px;
-    color: rgb(116, 114, 114) ;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(116, 114, 114);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: larger;
     font-weight: bold;
-}
-.logo{
+  }
+  
+  /* Styling for elements with class "logo" */
+  .logo {
     display: inline;
-}
-#formlogo{
+  }
+  
+  /* Styling for elements with id "formlogo" */
+  #formlogo {
     margin-left: 40px;
     margin-top: 10px;
-}
-#formtitle{
+  }
+  
+  /* Styling for elements with id "formtitle" */
+  #formtitle {
     margin-left: 150px;
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    color:rgb(199, 61, 30) ;
-
-}
-#formp{
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(199, 61, 30);
+  }
+  
+  /* Styling for elements with id "formp" */
+  #formp {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: larger;
     font-weight: bold;
-    color:rgb(116, 114, 114) ;
+    color: rgb(116, 114, 114);
     margin-left: 300px;
-}
-.container{
+  }
+  
+  /* Styling for elements with class "container" */
+  .container {
     background-color: rgb(244, 199, 85);
-} 
-.style{
-    font-family:Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for elements with class "style" */
+  .style {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
     font-size: larger;
-    color:rgb(116, 114, 114) ;
-
-}
-form{
+    color: rgb(116, 114, 114);
+  }
+  
+  /* Styling for form elements */
+  form {
     background-color: rgb(244, 199, 85);
-} 
-
-* {box-sizing: border-box}
-
-/* Full-width input fields */
+  }
+  
+  /* Styling for all elements using the box-sizing property */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Styling for full-width input fields */
   input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Styling for input fields on focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Styling for horizontal rules */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  /* Styling for buttons on hover */
+  button:hover {
+    opacity: 1;
+  }
+  
+  /* Styling for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Styling for cancel and signup buttons */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Styling for container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clearing floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  

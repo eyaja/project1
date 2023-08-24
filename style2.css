@@ -1,0 +1,152 @@
+/* Styling for the navigation bar */
+nav {
+    display: inline;
+    position: sticky;
+    top: 0px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the first element in navigation */
+.first {
+    display: inline;
+}
+
+/* Styling for navigation header */
+nav h1 {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    margin-right: 70px;
+}
+
+/* Styling for navigation header links */
+nav h1 a b {
+    color: rgb(199, 61, 30);
+    font-size: larger;
+}
+
+nav h1 a i {
+    color: rgb(154, 148, 148);
+    font-size: larger;
+}
+
+nav div {
+    margin-left: 329px;
+}
+
+/* Styling for general links */
+a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(154, 148, 148);
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for links on hover */
+a:hover {
+    color: rgb(199, 61, 30);
+}
+
+/* Styling for main content section */
+main {
+    background-color: rgb(244, 199, 85);
+    padding-bottom: 50px;
+}
+
+figure {
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#title {
+    color: rgb(116, 114, 114);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+/* Styling for section headers */
+.texts {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(199, 61, 30);
+    margin-left: 150px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Styling for product grid */
+.products, .foods {
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 400px;
+    gap: 20px;
+}
+
+/* Styling for individual product cards */
+.product, .food, .foodss {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Specific styling for product images */
+#cocacola, #fanta, #water, #adhnakebab, #kofte, #sandwich {
+    padding-top: 25px;
+}
+
+/* Styling for product text */
+.text {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(75, 70, 70);
+    font-weight: bold;
+}
+
+/* Styling for "Add to List" button */
+.add-to-cart {
+    background-color: rgb(199, 61, 30);
+}
+
+/* Styling for aside (cart) section */
+aside {
+    background-color: rgb(199, 61, 30);
+    border-radius: 10px;
+}
+
+/* Styling for cart section headers */
+aside h2 {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Styling for cart and checkout elements */
+.cart {
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.checkout {
+    background-color: rgb(244, 199, 85);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
